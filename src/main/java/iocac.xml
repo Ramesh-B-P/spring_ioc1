@@ -6,5 +6,5 @@
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     
     <bean class="spring_ioc.ac.MusicPlayer" id="mp"></bean>
-   
+    <bean class="spring_ioc.ac.WhatsApp" id="wa"></bean>
 </beans>

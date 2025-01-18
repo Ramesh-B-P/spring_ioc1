@@ -4,9 +4,9 @@ public class WhatsApp {
 
 	
 		
-//	public WhatsApp() {
-//		System.out.println(" whatsapp constructor");
-//	}
+	public WhatsApp() {
+		System.out.println(" whatsapp constructor");
+	}
 
 	void send() {
 		System.out.println("whatapp send");
