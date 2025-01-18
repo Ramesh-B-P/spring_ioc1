@@ -21,14 +21,20 @@ public class Mobile1 {
 //		
 		
 		
-		//beanfactory
-		//finding xml file
-		ClassPathResource classPathResource= new ClassPathResource("iocac.xml");
-		//loading xml file
-		 BeanFactory beanFactory=new XmlBeanFactory(classPathResource);
-		 // calling getBean()
-		 MusicPlayer musicPlayer= (MusicPlayer) beanFactory.getBean("mp");
-		WhatsApp whatsApp= (WhatsApp) beanFactory.getBean("wa");
-		 //musicPlayer.startMusic();
+//		------------------------------------------------------------//beanfactory---------------------------------------------------------------------------------------
+//		//finding xml file
+//		ClassPathResource classPathResource= new ClassPathResource("iocac.xml");
+//		//loading xml file
+//		 BeanFactory beanFactory=new XmlBeanFactory(classPathResource);
+//		 // calling getBean()
+//		 MusicPlayer musicPlayer= (MusicPlayer) beanFactory.getBean("mp");
+//		WhatsApp whatsApp= (WhatsApp) beanFactory.getBean("wa");
+//		 //musicPlayer.startMusic();
+		
+		
+//		------------------------------------------------------------//application context--------------------------------------------------------------
+		ApplicationContext applicationContext=new ClassPathXmlApplicationContext("iocac.xml");
+		
 	}
+	
 }
